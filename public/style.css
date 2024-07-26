@@ -1,0 +1,124 @@
+/* styles.css */
+
+/* General styles */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+/* Container with background image */
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background: url('https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcm00MjItMDYzLWt6cGhnMjNrLmpwZw.jpg') no-repeat center center fixed; /* Background image */
+    background-size: cover; /* Ensure the image covers the entire container */
+    padding: 10px;
+}
+
+.Contacts-Register {
+    width: 100%;
+    max-width: 720px;
+    background: rgba(255, 244, 244, 0.9); /* Semi-transparent background to make the text more readable */
+    margin: 100px auto 20px;
+    padding: 40px 30px 70px;
+    border-radius: 10px;
+}
+
+.Contacts-Register h2 {
+    color: #ff963473;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    margin-bottom: 20px;
+}
+
+.logo-container {
+    width: 50px; 
+    height: auto; 
+}
+
+.logo-container img {
+    max-width: 100%; 
+    height: auto; 
+}
+
+.search-container, .row, .row1, .row2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #edeef0;
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-bottom: 15px;
+}
+
+.search-container {
+    margin-bottom: 20px;
+}
+
+input {
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 10px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+button {
+    border: none;
+    outline: none;
+    padding: 12px 25px;
+    background: #e45a55;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 40px;
+}
+
+ul {
+    padding-left: 0; /* Removes default list padding */
+}
+
+ul li {
+    list-style: none;
+    font-size: 17px;
+    padding: 12px 8px 12px 50px;
+    user-select: none;
+    cursor: pointer;
+    position: relative;
+}
+
+ul li.checked {
+    color: #555;
+    text-decoration: line-through;
+}
+
+.manage-group-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.manage-group-container input {
+    margin: 5px;
+    padding: 5px;
+}
+
+.manage-group-container button {
+    margin: 5px;
+}
+
+
+
+
+
+
+
+

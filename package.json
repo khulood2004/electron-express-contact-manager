@@ -1,0 +1,16 @@
+{
+  "name": "final-app",
+  "version": "1.0.0",
+  "description": "Una aplicación de ejemplo",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {
+    "electron": "^25.3.1",
+    "sqlite3": "^5.1.6"
+  },
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC"
+}

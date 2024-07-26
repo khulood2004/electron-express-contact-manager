@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacts Register App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="Contacts-Register">
+            <h2><span class="logo-container"><img src="images/log.png" alt="Logo"></span> Contacts List</h2>
+            <div class="search-container">
+                <input type="text" id="search-input" placeholder="Search by name...">
+            </div>
+            <div class="row">
+                <input type="text" id="name-input" placeholder="Contact Name: ">
+            </div>
+            <div class="row1">
+                <input type="text" id="number-input" placeholder="Contact Number: ">
+            </div>
+            <div class="row2">
+                <input type="text" id="email-input" placeholder="Email: ">
+            </div>
+            <div class="row">
+                <input type="text" id="group-input" placeholder="Group (Optional): ">
+            </div>
+            <div class="button-container">
+                <button onclick="addContact()">Add</button>
+            </div>
+            <p>Total Contacts: <span id="total-contacts">0</span></p>
+            <ul id="list-container">
+                <!-- Contacts will be added here -->
+            </ul>
+            <div class="manage-group-container">
+                <h3>Manage Groups</h3>
+                <select id="contact-select">
+                    <option value="">Select a contact</option>
+                </select>
+                <input type="text" id="group-select-input" placeholder="Group name:">
+                <button onclick="addToGroup()">Add to Group</button>
+                <button onclick="removeFromGroup()">Remove from Group</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
